@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60e37c6f7b2c086a4fd7",
+    "revision": "c8bf8c0cb2366a2e7389",
     "url": "/mount-and-blade-landing/css/app.85784a95.css"
   },
   {
-    "revision": "a57342759eec35562e38c5ed1dc57bf2",
+    "revision": "b2ae59ef13209e0ae7c7d14a10f1f8ed",
     "url": "/mount-and-blade-landing/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mount-and-blade-landing/js/about.e372ffa2.js"
   },
   {
-    "revision": "60e37c6f7b2c086a4fd7",
-    "url": "/mount-and-blade-landing/js/app.11a49a80.js"
+    "revision": "c8bf8c0cb2366a2e7389",
+    "url": "/mount-and-blade-landing/js/app.d081fb42.js"
   },
   {
     "revision": "3ef5f46c446fc20bbff2",

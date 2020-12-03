@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mount-and-blade-landing/precache-manifest.db7f4867ce316164b250ff2944353ee2.js"
+  "/mount-and-blade-landing/precache-manifest.e674eff16b7232bc41b1bb9c93f6facc.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "mount-and-blade-landing"});
