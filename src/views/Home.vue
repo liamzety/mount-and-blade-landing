@@ -1,17 +1,21 @@
 <template>
   <div class="home">
-    <h1>TESTING</h1>
+    <v-navbar />
+    <v-hero />
+    <v-game-list />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import vNavbar from "@/components/vNavbar.vue";
+import vHero from "@/components/vHero.vue";
+import vGameList from "@/components/vGameList.vue";
 
 export default {
-  name: "Home",
   components: {
-    HelloWorld,
+    vNavbar,
+    vHero,
+    vGameList,
   },
 };
 </script>

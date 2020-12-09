@@ -1,0 +1,17 @@
+.nav {
+    height: 50px;
+    background-color: $secBlack;
+    border-bottom: 3px solid $border;
+
+    .logo {
+        width: 150px;
+    }
+
+    a {
+        color: $secWhite;
+
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+}

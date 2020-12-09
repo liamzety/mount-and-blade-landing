@@ -1,3 +1,3 @@
-module.exports = {
-    publicPath: '/mount-and-blade-landing/'
-}
+// module.exports = {
+//     publicPath: '/mount-and-blade-landing/'
+// }
