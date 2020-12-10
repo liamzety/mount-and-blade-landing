@@ -2,20 +2,20 @@
   <div class="home">
     <v-navbar />
     <v-hero />
-    <v-game-list />
+    <v-main />
   </div>
 </template>
 
 <script>
 import vNavbar from "@/components/vNavbar.vue";
 import vHero from "@/components/vHero.vue";
-import vGameList from "@/components/vGameList.vue";
+import vMain from "@/components/vMain.vue";
 
 export default {
   components: {
     vNavbar,
     vHero,
-    vGameList,
+    vMain,
   },
 };
 </script>

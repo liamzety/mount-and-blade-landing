@@ -1,47 +1,38 @@
 <template>
-  <div class="game-list relative">
-    <div class="top-shadow"></div>
-    <div class="game-list-bg absolute"></div>
+  <section class="game-list">
     <div class="game-list-container container">
-      <div v-for="(patch,idx) in patchArray" 
-      :key=idx 
-      class="card">
-      <img class="w100" :src="patch.src" alt="">
-      <div class="txt-container flex space-between  col">
-         <div  v-html="patch.title"></div>
-         <div class="patch-body-preview" >
-           <long-txt :txt="patch.body" />
-         </div>
-      <button>read more</button>
+      <h2>GAMES</h2>
+      <div class="games flex space-between w100 align-center wrap">
+        <v-game-preview
+          v-for="(src, idx) in srcArray"
+          :key="idx"
+          v-bind:style="{
+            backgroundImage: 'url(' + src + ')',
+          }"
+        />
       </div>
-      </div>
- 
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
-import {bannerLordService} from '@/services/bannerlord.js'
-import LongTxt from '@/components/LongTxt.vue'
+import src1 from "@/assets/img/games-img/mnb.jpg";
+import src2 from "@/assets/img/games-img/mnb-warband.jpg";
+import src3 from "@/assets/img/games-img/mnb-with-fire-and-sword.jpg";
+import src4 from "@/assets/img/games-img/mnb-viking-conquest.jpg";
+import src5 from "@/assets/img/games-img/mnb-napoleonic-wars.jpg";
+import src6 from "@/assets/img/games-img/mnb-bannerlord.jpg";
+import vGamePreview from "@/components/vGamePreview.vue";
+
 export default {
-    components: {
-    LongTxt,
-  },
-  created() {
-    this.getData()
-  },
-  methods: {
-    getData() {
-      bannerLordService.query()
-    }
-  },
+  components: { vGamePreview },
+
   computed: {
-    patchArray() {
-      return bannerLordService.getPatchNotes()
-    }
-  }
+    srcArray() {
+      //https://www.taleworlds.com/en/Games/Warband
+      return [src1, src2, src3, src4, src5, src6];
+    },
+  },
 };
 </script>
 
-<style>
-</style>
