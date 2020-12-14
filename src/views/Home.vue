@@ -4,6 +4,7 @@
     <v-hero />
     <v-main />
     <v-about />
+    <v-footer />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import vNavbar from "@/components/vNavbar.vue";
 import vHero from "@/components/vHero.vue";
 import vMain from "@/components/vMain.vue";
 import vAbout from "@/components/vAbout.vue";
+import vFooter from "@/components/vFooter.vue";
 
 export default {
   components: {
@@ -19,6 +21,7 @@ export default {
     vHero,
     vMain,
     vAbout,
+    vFooter,
   },
 };
 </script>
