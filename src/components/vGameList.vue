@@ -1,7 +1,7 @@
 <template>
   <section class="game-list">
     <div class="game-list-container container">
-      <h2>GAMES</h2>
+      <h2 class="category">OTHER GAMES</h2>
       <div class="games flex space-between w100 align-center wrap">
         <v-game-preview
           v-for="(src, idx) in srcArray"
@@ -29,7 +29,6 @@ export default {
 
   computed: {
     srcArray() {
-      //https://www.taleworlds.com/en/Games/Warband
       return [src1, src2, src3, src4, src5, src6];
     },
   },

@@ -16,11 +16,8 @@
         width: 100%;
 
 
-        h2 {
+        h2.category {
             grid-column: 1 / -1;
-            color: $mainOrange;
-            margin-bottom: -30px;
-            text-shadow: 0 0 7px black;
         }
     }
 

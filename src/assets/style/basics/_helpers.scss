@@ -22,12 +22,20 @@
   flex-wrap: wrap;
 }
 
+.align-start {
+  align-items: flex-start;
+}
+
 .align-center {
   align-items: center;
 }
 
 .space-between {
   justify-content: space-between;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
 }
 
 .space-around {

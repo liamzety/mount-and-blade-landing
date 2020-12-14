@@ -11,22 +11,22 @@ export const bannerLordService = {
 }
 
 async function query() {
-    fetch("https://rawg-video-games-database.p.rapidapi.com/games/mount-blade-ii-bannerlord", {
-        "method": "GET",
-        "headers": {
-            "x-rapidapi-key": "1aea8c2b7emsh186278c3ac0a6d1p1721ecjsn84f25086cfcc",
-            "x-rapidapi-host": "rawg-video-games-database.p.rapidapi.com"
-        }
-    })
-        .then(res => {
-            return res.json()
+    try {
+        const res = await fetch("https://rawg-video-games-database.p.rapidapi.com/games/mount-blade-ii-bannerlord", {
+            "method": "GET",
+            "headers": {
+                "x-rapidapi-key": "1aea8c2b7emsh186278c3ac0a6d1p1721ecjsn84f25086cfcc",
+                "x-rapidapi-host": "rawg-video-games-database.p.rapidapi.com"
+            }
         })
-        .then(data => {
-            console.log('data', data)
-        })
-        .catch(err => {
-            console.error(err);
-        });
+        const data = await res.json()
+        console.log('data:', data)
+        return data
+    } catch (err) {
+        console.error(err);
+    }
+
+
 }
 
 function getPatchNotes() {

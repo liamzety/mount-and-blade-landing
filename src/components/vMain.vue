@@ -1,7 +1,6 @@
 <template>
   <section class="main">
     <div class="top-shadow"></div>
-
     <v-patch-list />
     <v-game-list />
   </section>

@@ -1,0 +1,70 @@
+.about {
+    padding-top: 50px;
+    background-image: url(/mount-and-blade-landing/img/bg-tw.b36d6408.jpg);
+    background-position: right;
+    background-size: cover;
+
+    .desc {
+        margin: 50px 0;
+        padding: 10px;
+        background: #0000009c;
+        color: wheat;
+        border-radius: 2px;
+        border: solid 2px transparent;
+        box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+        background-clip: padding-box;
+        font-size: 1.3rem;
+    }
+
+    .top-shadow {
+        top: 0;
+        box-shadow: 0px 20px 20px 20px #010101e3;
+    }
+
+    .demo {
+        max-width: 1040px;
+        margin: auto;
+
+        .ratings {
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            padding: 5vw;
+
+
+            .rating-bar-container {
+                margin-left: 50px;
+
+                .rating-bar {
+                    background: url(/mount-and-blade-landing/img/black_smug.7343bc24.png);
+                    background-size: cover;
+                    color: $mainWhite;
+                    padding: 1vw;
+                    border-top-right-radius: 35px;
+                    border-bottom-right-radius: 35px;
+                    font-size: #{'min(3.3vw, 30px)'};
+
+                }
+            }
+
+
+
+            .rating-title {
+                background: url(/mount-and-blade-landing/img/black_smug.7343bc24.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                padding: 1vw;
+                border-radius: 50%;
+                color: $mainOrange;
+                text-shadow: 1px 1px 13px black;
+                font-size: #{'min(3.3vw, 30px)'};
+            }
+        }
+
+        video {
+            filter: blur(4px);
+        }
+    }
+}

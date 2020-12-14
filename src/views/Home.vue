@@ -3,6 +3,7 @@
     <v-navbar />
     <v-hero />
     <v-main />
+    <v-about />
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import vNavbar from "@/components/vNavbar.vue";
 import vHero from "@/components/vHero.vue";
 import vMain from "@/components/vMain.vue";
+import vAbout from "@/components/vAbout.vue";
 
 export default {
   components: {
     vNavbar,
     vHero,
     vMain,
+    vAbout,
   },
 };
 </script>
