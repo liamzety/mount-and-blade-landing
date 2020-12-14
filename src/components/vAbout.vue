@@ -1,5 +1,5 @@
 <template>
-  <section id="#about" class="about relative">
+  <section id="about" class="about relative">
     <div class="top-shadow absolute w100"></div>
     <div class="container">
       <h2 class="category">ABOUT</h2>

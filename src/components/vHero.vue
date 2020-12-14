@@ -5,8 +5,14 @@
         <h1>UNLEASH YOUR FURY!</h1>
         <h2>- Join The Battlefield -</h2>
         <div>
-          <button>JOIN</button>
-          <button>LEARN MORE</button>
+          <button>
+            <a href="https://www.taleworlds.com/en/Games/Bannerlord">JOIN</a>
+          </button>
+          <button>
+            <a href="https://www.taleworlds.com/en/Games/Bannerlord/Features">
+              LEARN MORE</a
+            >
+          </button>
         </div>
       </div>
       <div class="rider absolute w100 h100"></div>

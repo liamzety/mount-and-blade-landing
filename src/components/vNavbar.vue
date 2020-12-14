@@ -3,10 +3,10 @@
     <div class="nav-container h100 container flex align-center space-between">
       <img class="logo" :src="logo" alt="" />
       <div>
-        <a href="">GAMES</a>
-        <a href="">STORE</a>
-        <a href="">COMPANY</a>
-        <a href="">NEWS</a>
+        <a href="#game-list" v-smooth-scroll>GAMES</a>
+        <a href="#about" v-smooth-scroll>ABOUT</a>
+        <a href="https://www.taleworlds.com/en/Store">STORE</a>
+        <a href="https://www.taleworlds.com/en/Company">COMPANY</a>
       </div>
     </div>
   </nav>

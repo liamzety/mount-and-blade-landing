@@ -10,7 +10,10 @@
         mentioned games.
       </p>
       <p class="flex align-center">
-        Site Developed By <img class="liam-logo" :src="liam_logo" alt="logo" />
+        Site Developed By
+        <a href="http://liamzety.herokuapp.com/#/"
+          ><img class="liam-logo" :src="liam_logo" alt="logo"
+        /></a>
       </p>
     </div>
   </footer>
