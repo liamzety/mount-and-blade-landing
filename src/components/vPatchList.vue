@@ -13,6 +13,16 @@
             <button>READ MORE</button>
           </div>
         </div>
+        <a class="showmore" v-if="isMobile" @click="showMore = !showMore">
+          <span class="flex align-center" v-if="showMore">
+            SHOW LESS
+            <font-awesome-icon icon="sort-up" />
+          </span>
+          <span class="flex align-center" v-else>
+            SHOW MORE
+            <font-awesome-icon icon="sort-down" />
+          </span>
+        </a>
       </div>
     </div>
   </div>
@@ -22,12 +32,22 @@
 import { bannerLordService } from "@/services/bannerlord.js";
 import LongTxt from "@/components/LongTxt.vue";
 export default {
+  data() {
+    return {
+      isMobile: false,
+      showMore: true,
+    };
+  },
   components: {
     LongTxt,
   },
+  created() {
+    this.isMobile = window.innerWidth <= 580 ? true : false;
+    this.showMore = window.innerWidth <= 580 ? false : true;
+  },
   computed: {
     patchArray() {
-      return bannerLordService.getPatchNotes();
+      return bannerLordService.getPatchNotes().slice(this.showMore ? 0 : -2);
     },
   },
 };

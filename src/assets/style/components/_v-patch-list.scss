@@ -1,7 +1,6 @@
 .patch-list {
     margin-top: -160px;
-    margin-bottom: 150px;
-
+    margin-bottom: 100px;
 
     .patch-list-bg {
         height: 100%;
@@ -60,5 +59,9 @@
                 margin-bottom: 25px;
             }
         }
+    }
+
+    @media (max-width:580px) {
+        .patch-list-card-list {}
     }
 }

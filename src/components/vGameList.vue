@@ -12,6 +12,16 @@
           :_ref="game.ref"
         />
       </div>
+      <a class="showmore w100" v-if="isMobile" @click="showMore = !showMore">
+        <span class="flex align-center" v-if="showMore">
+          SHOW LESS
+          <font-awesome-icon icon="sort-up" />
+        </span>
+        <span class="flex align-center" v-else>
+          SHOW MORE
+          <font-awesome-icon icon="sort-down" />
+        </span>
+      </a>
     </div>
   </section>
 </template>
@@ -26,11 +36,20 @@ import src6 from "@/assets/img/games-img/mnb-bannerlord.jpg";
 import vGamePreview from "@/components/vGamePreview.vue";
 
 export default {
+  data() {
+    return {
+      isMobile: false,
+      showMore: true,
+    };
+  },
   components: { vGamePreview },
-
+  created() {
+    this.isMobile = window.innerWidth <= 580 ? true : false;
+    this.showMore = window.innerWidth <= 580 ? false : true;
+  },
   computed: {
     gameArray() {
-      return [
+      const games = [
         { img: src1, ref: "https://www.taleworlds.com/en/Games/MountAndBlade" },
         { img: src2, ref: "https://www.taleworlds.com/en/Games/Warband" },
         { img: src3, ref: "https://www.taleworlds.com/en/Games/FireAndSword" },
@@ -44,6 +63,7 @@ export default {
         },
         { img: src6, ref: "https://www.taleworlds.com/en/Games/Bannerlord" },
       ];
+      return games.slice(this.showMore ? 0 : -2);
     },
   },
 };

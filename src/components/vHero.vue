@@ -1,7 +1,7 @@
 <template>
   <div class="hero relative">
     <div class="hero-container h100">
-      <div class="cta container flex col align-center">
+      <div class="cta flex col align-center">
         <h1>UNLEASH YOUR FURY!</h1>
         <h2>- Join The Battlefield -</h2>
         <div>
