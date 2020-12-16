@@ -5,9 +5,9 @@ import "./assets/style/main.scss";
 import VueSmoothScroll from 'vue2-smooth-scroll'
 import VShowSlide from 'v-show-slide'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faSortDown, faSortUp, faBars } from '@fortawesome/free-solid-svg-icons'
+import { faSortDown, faSortUp, faBars, faTimesCircle } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-library.add(faSortDown, faSortUp, faBars)
+library.add(faSortDown, faSortUp, faBars, faTimesCircle)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
