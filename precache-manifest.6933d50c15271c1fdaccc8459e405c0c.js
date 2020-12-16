@@ -1,7 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "492fb9ede93df993d373",
-    "url": "/mount-and-blade-landing/css/app.3277ceb4.css"
+    "revision": "d2c576a21a897bbc343c",
+    "url": "/mount-and-blade-landing/css/app.2b2c5596.css"
+  },
+  {
+    "revision": "b20a901a05dca29e4a7a",
+    "url": "/mount-and-blade-landing/css/chunk-vendors.46ea2b39.css"
   },
   {
     "revision": "47a69df010ec81bd9bb2afa95605dbe1",
@@ -48,8 +52,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mount-and-blade-landing/img/black_smug.7343bc24.png"
   },
   {
-    "revision": "50cc8977f8f4af66a9e410d817512e6f",
-    "url": "/mount-and-blade-landing/img/logo.50cc8977.png"
+    "revision": "a1ee8e3201cc33264c60ebc099462e63",
+    "url": "/mount-and-blade-landing/img/liam-logo.a1ee8e32.png"
+  },
+  {
+    "revision": "550938794633aafd01ee6f491ff62994",
+    "url": "/mount-and-blade-landing/img/logo.55093879.png"
   },
   {
     "revision": "8c0d216e726dc28716b5a5aba84ed03f",
@@ -80,16 +88,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mount-and-blade-landing/img/rider.f8852682.png"
   },
   {
-    "revision": "8db409d600fe70947a7b013f2ca23bed",
+    "revision": "600105ece097c1320ba593427566df57",
     "url": "/mount-and-blade-landing/index.html"
   },
   {
-    "revision": "492fb9ede93df993d373",
-    "url": "/mount-and-blade-landing/js/app.4faaf506.js"
+    "revision": "d2c576a21a897bbc343c",
+    "url": "/mount-and-blade-landing/js/app.58b8d507.js"
   },
   {
-    "revision": "e0665e18e2505334a469",
-    "url": "/mount-and-blade-landing/js/chunk-vendors.8f37ac20.js"
+    "revision": "b20a901a05dca29e4a7a",
+    "url": "/mount-and-blade-landing/js/chunk-vendors.a61693f4.js"
   },
   {
     "revision": "0ab42b7dcb8f7ef3b449ca8588e8c110",
