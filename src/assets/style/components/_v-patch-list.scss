@@ -62,6 +62,12 @@
     }
 
     @media (max-width:580px) {
-        .patch-list-card-list {}
+        .patch-list-card-list {
+            gap: 15px;
+        }
+
+        h2.category {
+            margin-bottom: 30px;
+        }
     }
 }
