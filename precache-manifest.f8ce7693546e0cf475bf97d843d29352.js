@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d2c576a21a897bbc343c",
+    "revision": "ca1a8f3e74f32de46820",
     "url": "/mount-and-blade-landing/css/app.2b2c5596.css"
   },
   {
@@ -16,28 +16,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mount-and-blade-landing/fonts/Texturina-Regular-opsz=36.271afd04.ttf"
   },
   {
-    "revision": "677d69dba82f741e9bb9a1a5b8376e43",
-    "url": "/mount-and-blade-landing/img/1.677d69db.png"
+    "revision": "22224ca28491d64b67512275a7f1057d",
+    "url": "/mount-and-blade-landing/img/1.22224ca2.png"
   },
   {
     "revision": "ae75bfb68cbe6234ac6fd81697b747a0",
     "url": "/mount-and-blade-landing/img/2.ae75bfb6.png"
   },
   {
-    "revision": "22224ca28491d64b67512275a7f1057d",
-    "url": "/mount-and-blade-landing/img/3.22224ca2.png"
+    "revision": "677d69dba82f741e9bb9a1a5b8376e43",
+    "url": "/mount-and-blade-landing/img/3.677d69db.png"
   },
   {
     "revision": "91cd2f35df7d0b0bcc409017a23dc808",
     "url": "/mount-and-blade-landing/img/4.91cd2f35.png"
   },
   {
-    "revision": "0eaf4494e1605367ba7eaa2a4f7f7f5e",
-    "url": "/mount-and-blade-landing/img/5.0eaf4494.png"
+    "revision": "7ca43d5b4c0d2ceed18c9035f460f329",
+    "url": "/mount-and-blade-landing/img/5.7ca43d5b.png"
   },
   {
-    "revision": "7ca43d5b4c0d2ceed18c9035f460f329",
-    "url": "/mount-and-blade-landing/img/6.7ca43d5b.png"
+    "revision": "0eaf4494e1605367ba7eaa2a4f7f7f5e",
+    "url": "/mount-and-blade-landing/img/6.0eaf4494.png"
   },
   {
     "revision": "359c0fc91cc88dfd3b73c148f2aa2f7b",
@@ -88,12 +88,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mount-and-blade-landing/img/rider.f8852682.png"
   },
   {
-    "revision": "600105ece097c1320ba593427566df57",
+    "revision": "69da530f3671e0fec151daf2a770a20a",
     "url": "/mount-and-blade-landing/index.html"
   },
   {
-    "revision": "d2c576a21a897bbc343c",
-    "url": "/mount-and-blade-landing/js/app.58b8d507.js"
+    "revision": "ca1a8f3e74f32de46820",
+    "url": "/mount-and-blade-landing/js/app.bc45174c.js"
   },
   {
     "revision": "b20a901a05dca29e4a7a",
