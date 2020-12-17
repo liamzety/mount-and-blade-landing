@@ -1,19 +1,11 @@
-# mount-and-blade-landing
+# Fan Made Bannerlord landing page.
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Check it out: https://liamzety.github.io/mount-and-blade-landing/
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- All rights reserved for © TaleWorlds Entertainment.
+
+- This is a fan/demo site made to hone and show my skills.
+
+- I am in no way affiliated to the developers or publishers of the mentioned games.
