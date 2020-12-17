@@ -10,7 +10,11 @@
             <div class="patch-body-preview">
               <long-txt :txt="patch.body" />
             </div>
-            <button>READ MORE</button>
+            <button>
+              <a :href="`https://www.taleworlds.com/en/News/41${8 - idx}`"
+                >READ MORE</a
+              >
+            </button>
           </div>
         </div>
         <a class="showmore" v-if="isMobile" @click="showMore = !showMore">
